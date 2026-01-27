@@ -7,8 +7,7 @@ public class Problem6{
         String str = input.next();
         StringBuilder reversed_str = new StringBuilder(str);
         reversed_str = reversed_str.reverse();
-
-        //НЕ РАБОТАЕТ ПРОВЕРКА
+        
         if(str.equals(reversed_str.toString())){
             System.out.println("This is a palindrome");
         }

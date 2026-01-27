@@ -7,8 +7,7 @@ public class Problem5{
         int balance = 1000;
         int interest = input.nextInt();
 
-        balance += interest;
-        
-        System.out.println("New balance: " + balance);
+        balance += interest*balance/100;
+        System.out.println("New balance next month: " + balance);
     }
 }
