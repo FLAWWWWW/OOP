@@ -52,7 +52,7 @@ class Time{
         String result = "";
         if(hour >= 12){
             int stan_hour = hour - 12;
-
+            // ПЕРЕПИСАТЬ ФОРМАТ
             result += stan_hour + ":" + minute + ":" + second + " PM";
         }
         else{
