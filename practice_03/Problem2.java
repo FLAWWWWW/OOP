@@ -67,8 +67,7 @@ class Student extends Person {
     
     @Override
     public String toString() {
-        return super.toString() + ", Program: " + program + 
-               ", Year: " + year + ", Fee: " + fee;
+        return super.toString() + ", Program: " + program + ", Year: " + year + ", Fee: " + fee;
     }
 }
 
@@ -100,8 +99,7 @@ class Staff extends Person {
     
     @Override
     public String toString() {
-        return super.toString() + ", School: " + school + 
-               ", Pay: " + pay;
+        return super.toString() + ", School: " + school + ", Pay: " + pay;
     }
 }
 
